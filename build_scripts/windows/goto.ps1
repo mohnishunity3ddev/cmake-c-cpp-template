@@ -2,7 +2,6 @@
 
 $firstArg = $args[0]
 $secondArg = $args[1]
-$thirdArg = $args[2]
 
 if(![bool]$firstArg -and ![bool]$secondArg) {
     Write-Error "Atleast one argument required."
