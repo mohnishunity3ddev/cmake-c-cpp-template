@@ -1,9 +1,9 @@
 #include <iostream>
-#include <test_class/test.h>
+// #include <test_class/test.h>
 
-int main() {
+int
+main()
+{
     std::cout << "Hello, World! from 01_test_project\n";
-    Test t;
-    t.PrintSomething();
     return 0;
 }

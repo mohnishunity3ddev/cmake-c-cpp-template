@@ -1,6 +1,7 @@
 #pragma once
 
-class Test {
-public:
+class Test
+{
+  public:
     void PrintSomething();
 };
