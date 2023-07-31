@@ -10,17 +10,21 @@ AlwaysBreakAfterDefinitionReturnType: All
 
 # Align all parameters with the open bracket during a function call.
 AlignAfterOpenBracket: Align
+PointerAlignment: Right
+ReferenceAlignment: Pointer
 
 # Align consecutive equals to be aligned.
-AlignConsecutiveAssignments: Consecutive
-AlignConsecutiveDeclarations: Consecutive
+# AlignConsecutiveAssignments: Consecutive
+# AlignConsecutiveDeclarations: Consecutive
 
 AlignTrailingComments: true
 BinPackArguments: true
-BinPackParameters: false
+BinPackParameters: true
 # AllowAllArgumentsOnNextLine: true
-ColumnLimit: 125
+ColumnLimit: 115
 ReflowComments: true
+AlignOperands: true
+ContinuationIndentWidth: 80
 
 # BasedOnStyle: Google
 # AlignAfterOpenBracket: 'AlwaysBreak'
