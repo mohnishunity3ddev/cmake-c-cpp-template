@@ -1,10 +1,12 @@
 {
-    "editor.fontFamily": " 'Maple Mono NF', 'CaskaydiaCove NF Mono'",
+    "editor.fontFamily": "'maple mono nf', 'sf mono', 'caskaydiacove nf mono', 'comic code ligatures regular', 'RecMonoCasual Nerd Font Mono', 'pragmatapro mono liga', 'sf mono', 'ZedMono NFM', 'UbuntuSansMono NFM', 'iosevkaterm nerd font mono', 'jetbrainsmono nf', 'agave nerd font mono r', 'JetBrainsMono nerd font mono'",
     "editor.fontSize": 16,
+    // "editor.lineHeight": 25,
+    // "editor.letterSpacing": 0.5,
     "editor.fontLigatures": true,
-    "editor.fontWeight": "750",
-    
-
+    "editor.fontWeight": "normal",
+    "editor.renderWhitespace": "selection",
+    // "editor.letterSpacing": 1,
     "terminal.integrated.profiles.windows": {
         "Default Profile": {
             "path": [
@@ -18,13 +20,10 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Default Profile",
-
-
-    // "terminal.integrated.shellArgs.windows": [
-    //     "-NoExit",
-    //     "-Command",
-    //     "${workspaceFolder}/build_scripts/windows/set_aliases.ps1"
-    // ],
+    "terminal.integrated.fontFamily": "'maple mono nf', 'JetBrainsMono Nerd Font Mono', 'firacode nerd font mono',  'caskaydiacove nf mono'",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "normal",
+    "debug.console.fontFamily": "'comic code ligatures regular'",
     "files.associations": {
         "chrono": "cpp",
         "system_error": "cpp",
@@ -110,32 +109,62 @@
         "xtr1common": "cpp",
         "xtree": "cpp",
         "xutility": "cpp",
-        "*.in": "cpp"
+        "*.in": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "valarray": "cpp",
+        "core": "cpp",
+        "superlusupport": "cpp",
+        "*.evaluator": "cpp",
+        "*.traits": "cpp",
+        "adolcforward": "cpp",
+        "alignedvector3": "cpp",
+        "autodiff": "cpp",
+        "bvh": "cpp",
+        "eulerangles": "cpp",
+        "fft": "cpp",
+        "kroneckerproduct": "cpp",
+        "mprealsupport": "cpp",
+        "nnls": "cpp",
+        "numericaldiff": "cpp",
+        "openglsupport": "cpp",
+        "specialfunctions": "cpp",
+        "splines": "cpp",
+        "filesystem": "cpp",
+        "complex": "cpp",
+        "future": "cpp",
+        "*.inc": "cpp",
+        "matrixfunctions": "cpp",
+        "coroutine": "cpp",
+        "resumable": "cpp",
+        "typeindex": "cpp"
     },
-
     "files.trimTrailingWhitespace": true,
     "editor.renderLineHighlight": "all",
     "workbench.colorCustomizations": {
-        "activityBar.activeBackground": "#1a1a25",
-        "activityBar.background": "#1a1a25",
+        "activityBar.activeBackground": "#4d4d4d",
+        "activityBar.background": "#4d4d4d",
         "activityBar.foreground": "#e7e7e7",
         "activityBar.inactiveForeground": "#e7e7e799",
-        "activityBarBadge.background": "#704f4f",
+        "activityBarBadge.background": "#308f30",
         "activityBarBadge.foreground": "#e7e7e7",
         "commandCenter.border": "#e7e7e799",
-        "sash.hoverBorder": "#1a1a25",
-        "statusBar.background": "#050507",
+        "sash.hoverBorder": "#4d4d4d",
+        "statusBar.background": "#343434",
         "statusBar.foreground": "#e7e7e7",
-        "statusBarItem.hoverBackground": "#1a1a25",
-        "statusBarItem.remoteBackground": "#050507",
+        "statusBarItem.hoverBackground": "#4d4d4d",
+        "statusBarItem.remoteBackground": "#343434",
         "statusBarItem.remoteForeground": "#e7e7e7",
-        "titleBar.activeBackground": "#050507",
+        "titleBar.activeBackground": "#343434",
         "titleBar.activeForeground": "#e7e7e7",
-        "titleBar.inactiveBackground": "#05050799",
+        "titleBar.inactiveBackground": "#34343499",
         "titleBar.inactiveForeground": "#e7e7e799",
-        "editor.lineHighlightBackground": "#00ff2a3b",
-        "editor.lineHighlightBorder": "#000000"
+        "editor.lineHighlightBorder": "#D0FEEC00"
     },
-
-    "peacock.color": "#050507",
+    "peacock.color": "#343434",
+    "zenMode.fullScreen": true,
+    "zenMode.hideActivityBar": true,
+    "zenMode.showTabs": "single",
+    "zenMode.hideStatusBar": true,
+    "zenMode.restore": true
 }
